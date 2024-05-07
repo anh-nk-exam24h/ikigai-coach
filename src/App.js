@@ -3,10 +3,13 @@ import ChoiceTypeLearningComponent from './components/ChoiceTypeLearning';
 import FAQComponent from './components/FAQ';
 import FeedbackComponent from './components/Feedback';
 import TrendingComponent from './components/Trending';
-import logo from './logo-ikigai.svg'
+import logo from './ikigaicoach.svg'
 import axios from 'axios';
+import ModalComponent from './components/ModalPreview';
 function App() {
   const [firstCourse, setFirstCourse] = useState({})
+  const [isOpen, setIsOpen] = useState(false);
+
   useEffect(() => {
     axios
     .post(`https://api.ikigai.ikigroup.vn/api/course/list`, {
@@ -213,18 +216,13 @@ function App() {
   <section className="container mc-my-10" data-testid="featured-instructor">
     <div className="mc-text--center">
       <h2 className="mc-text-h1 mc-mt-11 mc-mb-10">
-      Gặp gỡ những người giỏi nhất trên thế giới. <br />
-Thêm các lớp học mới vào mỗi tháng.
+      Gặp gỡ những người giỏi nhất <br />
+      Trong lĩnh vực của bạn.
       </h2>
       <div>
         <div tabIndex={-1} style={{ width: "100%", display: "inline-block" }}>
           <div className="d-none d-md-block">
-            <a
-              className="col-12"
-              href="#"
-              tabIndex={-1}
-            >
-              <div className="mc-py-10 mc-tile mc-tile--21x9">
+          <div className="mc-py-10 mc-tile mc-tile--21x9">
                 <div className="mc-tile__content content">
                   <div
                     color="0, 0, 0"
@@ -352,9 +350,8 @@ Thêm các lớp học mới vào mỗi tháng.
                          {firstCourse?.description}
                         </span>
                         <button
-                          type="button"
                           className="c-button c-button--play c-button--md mc-mb-3 mc-mt-6"
-                          tabIndex={-1}
+                          onClick={() => setIsOpen(true)}
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -378,8 +375,8 @@ Thêm các lớp học mới vào mỗi tháng.
                   </div>
                 </div>
               </div>
-            </a>
           </div>
+          <ModalComponent video={firstCourse?.media_id?.media_url} setIsOpen={setIsOpen} isOpen={isOpen} />
           <div className="d-block d-md-none">
             <a
               className="col-12"
@@ -685,7 +682,7 @@ Thêm các lớp học mới vào mỗi tháng.
             className="c-button c-button--primary c-button--md mc-mr-3"
             href="/find-my-classes"
           >
-           Đăng nhập
+           Đăng ký
           </a>
           <a
             className="c-button c-button--secondary c-button--md"
@@ -723,8 +720,7 @@ Thêm các lớp học mới vào mỗi tháng.
                 alt=""
                 data-testid="maw-banner-l&d-img"
                 sizes="100vw"
-                srcSet="https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 640w, https://www.masterclass.com/cdn-cgi/image/width=750,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 750w, https://www.masterclass.com/cdn-cgi/image/width=828,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 828w, https://www.masterclass.com/cdn-cgi/image/width=1080,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 1080w, https://www.masterclass.com/cdn-cgi/image/width=1200,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 1200w, https://www.masterclass.com/cdn-cgi/image/width=1920,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 1920w, https://www.masterclass.com/cdn-cgi/image/width=2048,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 2048w, https://www.masterclass.com/cdn-cgi/image/width=3840,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png 3840w"
-                src="https://www.masterclass.com/cdn-cgi/image/width=3840,quality=75,format=webp/https://static.masterclass.com/maw_banner_image.png"
+                src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715072344/photo1715070438_oiasg7.jpg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -768,8 +764,7 @@ Thêm các lớp học mới vào mỗi tháng.
                   alt="MasterClass Logo"
                   data-testid="maw-banner-logo"
                   sizes="100vw"
-                  srcSet="https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 640w, https://www.masterclass.com/cdn-cgi/image/width=750,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 750w, https://www.masterclass.com/cdn-cgi/image/width=828,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 828w, https://www.masterclass.com/cdn-cgi/image/width=1080,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 1080w, https://www.masterclass.com/cdn-cgi/image/width=1200,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 1200w, https://www.masterclass.com/cdn-cgi/image/width=1920,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 1920w, https://www.masterclass.com/cdn-cgi/image/width=2048,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 2048w, https://www.masterclass.com/cdn-cgi/image/width=3840,quality=75,format=webp/https://static.masterclass.com/maw-logo.png 3840w"
-                  src="https://www.masterclass.com/cdn-cgi/image/width=3840,quality=75,format=webp/https://static.masterclass.com/maw-logo.png"
+                  src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715072344/photo1715070438_oiasg7.jpg"
                   decoding="async"
                   data-nimg="fill"
                   style={{

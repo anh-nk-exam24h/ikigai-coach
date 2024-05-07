@@ -2,11 +2,12 @@ import { useState } from "react";
 
 function ChoiceTypeLearningComponent() {
     const data = [
-        "Nâng cao kỹ năng chuyên môn hoặc lãnh đạo của tôi",
-        "Trở thành một nghệ sĩ, nhạc sĩ hoặc nhà văn giỏi hơn",
-        "Trở thành một đầu bếp giỏi hơn",
-        "Cải thiện phong cách của tôi (thiết kế nội thất hoặc thời trang)",
-        "Mục tiêu khác"
+
+        "Chăm sóc sức khoẻ",
+        "Nâng cao hành trình cuộc sống của bạn",
+        "Mở khoá tiềm năng nghề nghiệp của bạn",
+        "Trở thành một nhà đầu tư tài chính",
+        "Cải thiện kỹ năng kinh doanh"
     ]
     const [pickUser, setPickUser] = useState([])
     const [isPlay, setIsPlay] = useState(false);
@@ -25,14 +26,14 @@ function ChoiceTypeLearningComponent() {
           <div className="mc-mt-8 mc-mt-md-12">
             <div className="row no-gutters">
               <div className="col-12 col-md-9 col-lg-12">
-                <h1 className="mc-text-d2 mc-text--brand mc-text--uppercase mc-p-0 mc-mb-2">
+                <h1 className="mc-text-d2 text-customer mc-text--brand mc-text--uppercase mc-p-0 mc-mb-2">
                trở thành phiên bản tốt nhất của chính bạn.
                 </h1>
               </div>
             </div>
             <div className="row no-gutters">
               <div className="col-9 col-lg-12">
-                <p className="mc-p-0 mc-text--bold mc-text-color--medium">Truy cập không giới hạn vào hàng ngàn bài học ngắn gọn.
+                <p className="mc-p-0 mc-text--bold mc-text-color--medium">Coaching 1-1 với các chuyên gia hàng đầu
                 </p>
               </div>
             </div>
@@ -3992,8 +3993,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_01.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_01.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_01.png"
+                    src="https://files.exam24h.com/images_danghoa/home/feature.png"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4071,8 +4071,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_07.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_07.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_07.png"
+                   src="https://files.exam24h.com/images_danghoa/home/connect/connect1.png"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4152,8 +4151,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_02.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_02.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_02.png"
+                   src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715072128/photo1715070775_epwbsf.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4231,8 +4229,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_08.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_08.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_08.png"
+                   src="https://ikigroup.vn/images/-bo-nhiem-gdkd-ikitech.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4312,8 +4309,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_03.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_03.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_03.png"
+                    src="https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/316165220_106375962301029_8656949566433665720_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFbQxr1oi6SeUAb3rJHbGDlyjgxZgyyzbHKODFmDLLNsbs0dYx4Sm5W7MyOMTozCkwgGDpI3dhJ_gFWgZ-TX1uP&_nc_ohc=tngn-nM96zwQ7kNvgHtTfAz&_nc_ht=scontent.fhan17-1.fna&oh=00_AfB2Ja3Q3cXgvxUGg0hHT_xs2aycA55plrCke_n73YXwdA&oe=663F7BB3"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4391,8 +4387,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_09.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_09.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_09.png"
+                    src="https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/437365972_7656734864433758_1065572721511050403_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGF5956EbU-kxh_vD3PKt2EvU7WILixwOu9TtYguLHA62smVmd7_dOekxVQt5dSEbVOxSYglb2iK6bkfcQmZG3v&_nc_ohc=yzvcrrmDlpoQ7kNvgEqiKxi&_nc_ht=scontent.fhan17-1.fna&oh=00_AfDYVoIlWhTCIyDfXq8TsKFfGbs8H-0hMm3lN0gAxWAyCA&oe=663F6661"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4472,8 +4467,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_04.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_04.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_04.png"
+                    src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715072519/photo1715070688_xk1vqo.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4551,8 +4545,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_10.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_10.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_10.png"
+                    src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715072344/photo1715070438_oiasg7.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4632,8 +4625,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_05.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_05.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_05.png"
+                    src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715072521/photo1715070300_jnpikx.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4711,8 +4703,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_11.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_11.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_11.png"
+                 src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715072346/photo1715070900_eaimst.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4792,8 +4783,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_06.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_06.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_06.png"
+                    src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715073070/photo1715070370_ygbwin.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4871,8 +4861,7 @@ function ChoiceTypeLearningComponent() {
                   </span>
                   <img
                     alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_12.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_12.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_12.png"
+                    src="https://res.cloudinary.com/dhdfr7p4h/image/upload/v1715073167/photo1715070765_skiq0r.jpg"
                     decoding="async"
                     data-nimg="intrinsic"
                     className="mc-corners--md"
@@ -4900,966 +4889,7 @@ function ChoiceTypeLearningComponent() {
                 </span>
               </div>
             </div>
-            <div className="CarouselItems_loopItem__31NGM group d-flex justify-content-center">
-              <div>
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																													xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_01.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_01.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_01.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-              <div className="CarouselItems_loopItemSecondColumn__RKMQi">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																														xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_07.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_07.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_07.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="CarouselItems_loopItem__31NGM group d-flex justify-content-center">
-              <div>
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																															xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_02.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_02.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_02.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-              <div className="CarouselItems_loopItemSecondColumn__RKMQi">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_08.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_08.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_08.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="CarouselItems_loopItem__31NGM group d-flex justify-content-center">
-              <div>
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																	xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_03.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_03.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_03.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-              <div className="CarouselItems_loopItemSecondColumn__RKMQi">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																		xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_09.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_09.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_09.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="CarouselItems_loopItem__31NGM group d-flex justify-content-center">
-              <div>
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																			xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_04.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_04.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_04.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-              <div className="CarouselItems_loopItemSecondColumn__RKMQi">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																				xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_10.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_10.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_10.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="CarouselItems_loopItem__31NGM group d-flex justify-content-center">
-              <div>
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																					xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_05.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_05.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_05.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-              <div className="CarouselItems_loopItemSecondColumn__RKMQi">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																						xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_11.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_11.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_11.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="CarouselItems_loopItem__31NGM group d-flex justify-content-center">
-              <div>
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																							xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_06.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_06.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_06.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-              <div className="CarouselItems_loopItemSecondColumn__RKMQi">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "inline-block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                    position: "relative",
-                    maxWidth: "100%"
-                  }}
-                >
-                  <span
-                    style={{
-                      boxSizing: "border-box",
-                      display: "block",
-                      width: "initial",
-                      height: "initial",
-                      background: "none",
-                      opacity: 1,
-                      border: 0,
-                      margin: 0,
-                      padding: 0,
-                      maxWidth: "100%"
-                    }}
-                  >
-                    <img
-                      style={{
-                        display: "block",
-                        maxWidth: "100%",
-                        width: "initial",
-                        height: "initial",
-                        background: "none",
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0
-                      }}
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20
-																																																																																								xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27285%27%20height=%27356%27/%3e"
-                    />
-                  </span>
-                  <img
-                    alt=""
-                    srcSet="https://www.masterclass.com/cdn-cgi/image/width=384,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_12.png 1x, https://www.masterclass.com/cdn-cgi/image/width=640,quality=75,format=webp/https://static.masterclass.com/vertical_scroll_hero_image_cropped_12.png 2x"
-                    src="cdn-cgi/image/width%3d640%2cquality%3d75%2cformat%3dwebp/https_/static.masterclass.com/vertical_scroll_hero_image_cropped_12.png"
-                    decoding="async"
-                    data-nimg="intrinsic"
-                    className="mc-corners--md"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      bottom: 0,
-                      right: 0,
-                      boxSizing: "border-box",
-                      padding: 0,
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: 0,
-                      height: 0,
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center"
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
+            
           </div>
         </div>
         <button
